@@ -23,8 +23,10 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/sticky-sidebar.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
+<script async onload="try{Typekit.load();}catch(e){}" src="https://use.typekit.com/say2ljo.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
 
 </body>
